@@ -1,0 +1,35 @@
+* {
+font-family:"Lucida Console", "Courier New", monospace;
+}
+/* Styling for the outsourced image*/
+figure{
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: black;
+    color:white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+/* Makes the image fit within the border */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* styling for the form */
+fieldset{
+    background-color:#eeeeee;
+}
+ legend {
+    background-color: gray;
+    color: whitesmoke;
+    padding:5px 10px ;
+    
+ }
+ input {
+    margin: 5px;
+ }
